@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <ir.pegahtech.backtorysample.views.styledViews.StyledTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dip"
+        android:layout_gravity="center_vertical"
+        android:text="@string/loading_title" />
+
+    <com.rey.material.widget.ProgressView
+        android:layout_width="48dip"
+        android:layout_height="48dip"
+        android:layout_gravity="center"
+        android:layout_margin="10dip"
+        app:pv_autostart="true"
+        app:pv_circular="true"
+        app:pv_progressMode="indeterminate"
+        app:pv_progressStyle="@style/BacktoryCircularProgressBar" />
+</LinearLayout>

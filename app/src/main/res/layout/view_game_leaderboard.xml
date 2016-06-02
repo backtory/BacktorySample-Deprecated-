@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/viewLeaderboard"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dip">
+
+        <ir.pegahtech.backtorysample.views.styledViews.StyledTextView
+            android:id="@+id/textScoreLeaderboard"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/game_leaderboard_score"
+            android:textSize="18sp" />
+
+        <ir.pegahtech.backtorysample.views.styledViews.StyledTextView
+            android:id="@+id/textNameLeaderboard"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="4"
+            android:gravity="right|center_vertical"
+            android:text="@string/game_leaderboard_name"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dip"
+        android:layout_margin="5dip"
+        android:background="@color/titleGray" />
+
+    <ListView
+        android:id="@+id/listLeaderboard"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</LinearLayout>

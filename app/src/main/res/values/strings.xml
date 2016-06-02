@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">BacktorySample</string>
+
+    // Auth Activity
+    <string name="auth_login_again_title">لطفا دوباره وارد شوید</string>
+    <string name="auth_login_title">ورود</string>
+    <string name="auth_sign_up_title">ثبت نام</string>
+    <string name="auth_first_name_title">نام</string>
+    <string name="auth_last_name_title">نام خانوادگی</string>
+    <string name="auth_user_name_title">نام کاربری</string>
+    <string name="auth_email_title">ایمیل</string>
+    <string name="auth_phone_number_title">شماره موبایل</string>
+    <string name="auth_password_title">رمز عبور</string>
+    <string name="auth_new_password_title">رمز عبور جدید</string>
+    <string name="auth_repeat_password_title">تکرار رمز عبور</string>
+    <string name="auth_prev_sign_up">با این شماره قبلا ثبت نام شده است</string>
+    <string name="login_failed">نام کاربری یا رمز عبور اشتباه است</string>
+    <string name="auth_info_incorrect">اطلاعات وارد شده صحیح نیست</string>
+    <string name="auth_password_not_match">رمز عبور و تکرار آن یکسان نیستند</string>
+    <string name="auth_enter_username">نام کاربری خود را وارد کنید</string>
+    <string name="auth_successful_sign_up">ثبت نام اولیه با موفقیت انجام شد</string>
+    <string name="auth_successful_login">ورود با موفقیت انجام شد</string>
+    <string name="auth_phone_number_incorrect">شماره موبایل اشتباه وارد شده است</string>
+
+    // Game Activity
+    <string name="game_play_title">بازی</string>
+    <string name="game_leaderboard_title">لیدربورد</string>
+    <string name="game_leaderboard_score">امتیاز</string>
+    <string name="game_leaderboard_name">نام بازیکن</string>
+    <string name="game_click">بزن</string>
+    <string name="game_start_game">شروع بازی</string>
+    <string name="game_time">زمان:</string>
+    <string name="game_score">امتیاز:</string>
+
+    <string name="loading_title">در حال دریافت اطلاعات</string>
+    <string name="server_error">خطایی پدید آمده. لطفا بعدا دوباره تلاش کنید</string>
+    <string name="dialog_set_score">امتیاز شما ثبت شد</string>
+    <string name="ok">باشه</string>
+
+    // Fonts
+    <string name="font_address">fonts/iransans.ttf</string>
+</resources>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/viewRegisterAuth"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dip"
+    android:visibility="gone">
+
+    <ir.pegahtech.backtorysample.views.styledViews.StyledFloatLabeledEditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ir.pegahtech.backtorysample.views.styledViews.StyledEditText
+            android:id="@+id/editFirstNameRegister"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:hint="@string/auth_first_name_title"
+            android:singleLine="true"
+            android:textSize="16sp" />
+    </ir.pegahtech.backtorysample.views.styledViews.StyledFloatLabeledEditText>
+
+    <ir.pegahtech.backtorysample.views.styledViews.StyledFloatLabeledEditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ir.pegahtech.backtorysample.views.styledViews.StyledEditText
+            android:id="@+id/editLastNameRegister"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:hint="@string/auth_last_name_title"
+            android:singleLine="true"
+            android:textSize="16sp" />
+    </ir.pegahtech.backtorysample.views.styledViews.StyledFloatLabeledEditText>
+
+    <ir.pegahtech.backtorysample.views.styledViews.StyledFloatLabeledEditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ir.pegahtech.backtorysample.views.styledViews.StyledEditText
+            android:id="@+id/editUsernameRegister"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:hint="@string/auth_user_name_title"
+            android:singleLine="true"
+            android:textSize="16sp" />
+    </ir.pegahtech.backtorysample.views.styledViews.StyledFloatLabeledEditText>
+
+    <ir.pegahtech.backtorysample.views.styledViews.StyledFloatLabeledEditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ir.pegahtech.backtorysample.views.styledViews.StyledEditText
+            android:id="@+id/editPasswordRegister"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:hint="@string/auth_password_title"
+            android:inputType="textPassword"
+            android:singleLine="true"
+            android:textSize="16sp" />
+    </ir.pegahtech.backtorysample.views.styledViews.StyledFloatLabeledEditText>
+
+    <ir.pegahtech.backtorysample.views.styledViews.StyledFloatLabeledEditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ir.pegahtech.backtorysample.views.styledViews.StyledEditText
+            android:id="@+id/editRepeatPasswordRegister"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:hint="@string/auth_repeat_password_title"
+            android:inputType="textPassword"
+            android:singleLine="true"
+            android:textSize="16sp" />
+    </ir.pegahtech.backtorysample.views.styledViews.StyledFloatLabeledEditText>
+
+    <ir.pegahtech.backtorysample.views.styledViews.StyledButton
+        android:id="@+id/buttonRegister"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dip"
+        android:background="@drawable/background_blue_smooth"
+        android:text="@string/auth_sign_up_title"
+        android:textColor="@color/white" />
+</LinearLayout>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/viewPlayGame"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ir.pegahtech.backtorysample.views.styledViews.StyledTextView
+        android:id="@+id/textCountDownGame"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:gravity="center"
+        android:layout_margin="10dip"
+        android:singleLine="true"
+        android:textSize="20sp" />
+
+    <ir.pegahtech.backtorysample.views.styledViews.StyledTextView
+        android:id="@+id/textScoreGame"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_margin="10dip"
+        android:gravity="center"
+        android:singleLine="true"
+        android:textSize="20sp" />
+
+    <ir.pegahtech.backtorysample.views.styledViews.StyledButton
+        android:id="@+id/buttonStartPlayGame"
+        android:layout_width="300dip"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dip"
+        android:layout_centerInParent="true"
+        android:background="@drawable/background_blue_smooth"
+        android:text="@string/game_start_game"
+        android:textColor="@color/white" />
+
+    <RelativeLayout
+        android:id="@+id/viewBoardPlayGame"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:layout_below="@id/textScoreGame"
+        android:orientation="vertical">
+
+        <ir.pegahtech.backtorysample.views.styledViews.StyledButton
+            android:id="@+id/buttonClickPlayGame"
+            android:layout_width="wrap_content"
+            android:visibility="gone"
+            android:padding="10dip"
+            android:layout_height="wrap_content"
+            android:background="@drawable/background_blue_smooth"
+            android:text="@string/game_click"
+            android:textColor="@color/white" />
+    </RelativeLayout>
+</RelativeLayout>
